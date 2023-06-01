@@ -39,8 +39,8 @@ baseurl: "/M-Dims-Blog" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: _dim_ma_
-    github: dimitra-maoutsa
+    - { platform: twitter, user_url: "https://twitter.com/_dim_ma_" }
+    - { platform: github, user_url: "https://github.com/dimitra-maoutsa" }
 
 # Set this to true to get LaTeX math equation support
 use_math: true
