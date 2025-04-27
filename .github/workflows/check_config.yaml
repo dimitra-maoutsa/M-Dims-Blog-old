@@ -1,6 +1,11 @@
 name: Check Configurations
 on: push
 
+permissions:
+  actions: write
+  pull-requests: write
+  contents: write
+
 jobs:
  check-config:
    runs-on: ubuntu-latest
