@@ -7,7 +7,7 @@ on:
 
 jobs:
   run:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
     - run: ./_action_files/check_js.sh
